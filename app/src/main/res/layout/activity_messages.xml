@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tpif26.pauphilet_romero.hanjaout.ContactsActivity"
+    android:weightSum="1">
+
+    <ListView
+        android:id="@+id/listMessages"
+        android:layout_height="452dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.24">
+    </ListView>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24">
+
+        <EditText
+            android:layout_width="312dp"
+            android:layout_height="46dp"
+            android:id="@+id/editText3"
+            android:hint="Envoyer un SMS" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:id="@+id/button"
+            android:layout_gravity="right"
+            android:layout_weight="0.24" />
+
+    </LinearLayout>
+
+</LinearLayout>
